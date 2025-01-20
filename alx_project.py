@@ -8,7 +8,7 @@ load_dotenv()
 # Initialize OpenAI API
 
 
-openai.api_key = os.environ.get("openai.api_key")
+openai.api_key = os.environ.get("openai.api_key") 
 # Initialize chat history in session state
 if 'messages' not in st.session_state:
     st.session_state.messages = []
